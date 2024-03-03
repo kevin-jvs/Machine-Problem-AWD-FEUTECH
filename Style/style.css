@@ -1,0 +1,75 @@
+body {
+    padding-top: 56px;
+    margin-top: 0;
+    background-image: url('https://c0.wallpaperflare.com/preview/26/363/783/club-party-techno-neon.jpg');    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 1 30%;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.navbar-container {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar {
+    background-color:black;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.footer-content {
+    color: rgb(214, 57, 57);
+}
+
+
+.text {
+    color: rgb(117, 14, 14); /* Set the color of the text in the footer to white */
+}
+
+.display {
+    color: white;
+    font-weight: 100;
+}
